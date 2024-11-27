@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>View page</title>
+</head>
+<body>
+<table>
+<tr>
+<th>Name</th>
+<th>Contact</th>
+</tr>
+{%for value in values%}
+<tr>
+<td>{{value[0]}}</td>
+<td>{{value[1]}}</td>
+</tr>
+{%endfor%}
+</table>
+  <p>This is a mini project to save contact and name of a person</p>
+</body>
+</html>
